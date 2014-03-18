@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Code for America 2014 Summit | September 24 & 25, 2014</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800' rel='stylesheet' type='text/css'>
+
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="./countdown/jquery.countdown.css">
+<link rel="stylesheet" href="style.css">
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="./bootstrap/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <script src="./countdown/jquery.countdown.js"></script>
+
+		<script type="text/javascript">
+  		$(function () {
+  			var holiday = new Date();
+  			holiday = new Date(2014, 9 - 1, 23);
+  			$('#defaultCountdown').countdown({until: holiday});
+  			$('#year').text(austDay.getFullYear());
+  		});
+
+		</script>
+
+  </head>
+
+  <body>
+
+    <div class="row">
+      <div class="col-sm-12 text-center">
+				<h1 class="background-highlight">The Code for America Summit</h1>
+        <h2 class="background-highlight">is coming soon</h2>
+	       <img src="flag-tag.png" style="width:80%"/>
+
+      </div>
+    </div> <!-- /row -->
+
+    <div class="row">
+      <div class="col-sm-8 col-sm-offset-2 text-center"><div id="defaultCountdown"></div></div>
+    </div> <!-- /row -->
+    <div class="row">
+      <div class="col-sm-12 text-center">
+        <h2 class="background-highlight">September 23 & 24, 2014</h2>
+      </div>
+    </div>
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+
+  </body>
+</html>
